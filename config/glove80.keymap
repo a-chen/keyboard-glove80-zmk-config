@@ -114,23 +114,23 @@
 
         navigation {
             bindings = <
-&trans  &none           &none             &none         &none                                                                                     &none          &none      &none      &none       &none
-&trans  &none           &none             &none         &none         &none                                                             &none     &none          &none      &none      &none       &none
-&trans  &kp TAB         &trans            &trans        &trans        &kp C_VOL_UP                                                      &none     &kp HOME       &none      &kp END    &kp DELETE  &none
-&trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_WIN  &kp C_VOL_DN                                                      &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp BSPC    &none
-&trans  &none           &none             &none         &none         &kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &trans  &none     &kp PAGE_DOWN  &kp PG_UP  &trans     &kp RET     &none
-&trans  &trans          &trans            &trans        &none                           &trans  &trans  &trans  &trans  &trans  &trans            &none          &none      &none      &none       &none
+&trans  &none         &none         &none           &none                                                                                         &none          &none      &none      &none       &none
+&trans  &none         &none         &none           &none             &none                                                             &none     &none          &none      &none      &none       &none
+&trans  &kp TAB       &trans        &trans          &trans            &kp C_VOL_UP                                                      &none     &kp HOME       &none      &kp END    &kp DELETE  &none
+&trans  &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp C_VOL_DN                                                      &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp BSPC    &none
+&trans  &none         &none         &none           &none             &kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &trans  &none     &kp PAGE_DOWN  &kp PG_UP  &trans     &kp RET     &none
+&trans  &trans        &trans        &trans          &none                               &trans  &trans  &trans  &trans  &trans  &trans            &none          &none      &none      &none       &none
             >;
         };
 
         number {
             bindings = <
-&trans  &trans          &trans     &trans        &trans                                                                          &trans        &trans         &trans     &trans           &trans
-&trans  &trans          &trans     &trans        &trans        &trans                                                   &trans   &trans        &trans         &trans     &trans           &trans
-&trans  &kp N1          &kp N2     &kp N3        &kp N4        &kp N5                                                   &kp N6   &kp N7        &kp N8         &kp N9     &kp N0           &trans
-&trans  &sk LEFT_SHIFT  &sk LCTRL  &sk LEFT_ALT  &sk LEFT_WIN  &kp F11                                                  &kp F12  &sk LEFT_WIN  &sk RIGHT_ALT  &sk RCTRL  &sk RIGHT_SHIFT  &trans
-&trans  &kp F1          &kp F2     &kp F3        &kp F4        &kp F5   &trans  &trans  &trans  &trans  &trans  &trans  &kp F6   &kp F7        &kp F8         &kp F9     &kp F10          &trans
-&trans  &trans          &trans     &trans        &trans                 &trans  &trans  &trans  &trans  &trans  &trans           &trans        &trans         &trans     &trans           &trans
+&trans  &trans        &trans        &trans          &trans                                                                              &trans            &trans          &trans        &trans        &trans
+&trans  &trans        &trans        &trans          &trans            &trans                                                   &trans   &trans            &trans          &trans        &trans        &trans
+&trans  &kp N1        &kp N2        &kp N3          &kp N4            &kp N5                                                   &kp N6   &kp N7            &kp N8          &kp N9        &kp N0        &trans
+&trans  &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp F11                                                  &kp F12  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &trans
+&trans  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5   &trans  &trans  &trans  &trans  &trans  &trans  &kp F6   &kp F7            &kp F8          &kp F9        &kp F10       &trans
+&trans  &trans        &trans        &trans          &trans                     &trans  &trans  &trans  &trans  &trans  &trans           &trans            &trans          &trans        &trans        &trans
             >;
         };
 
