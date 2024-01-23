@@ -28,5 +28,5 @@ jobs:
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
-          name: glove80.uf2
+          name: ${{ github.event.repository.updated_at }}_glove80.uf2
           path: glove80.uf2
