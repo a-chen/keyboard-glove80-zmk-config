@@ -29,7 +29,7 @@
             label = "LAYER_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mo 4>, <&to 4>;
+            bindings = <&mo 5>, <&to 5>;
         };
 
         magic: magic_hold_tap {
@@ -102,9 +102,9 @@
 &kp F1        &kp F2  &kp F3  &kp F4    &kp F5                                                                                                    &kp F6    &kp F9     &kp F10   &kp F11   &kp F12
 &kp EQUAL     &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                                                                 &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp TAB       &kp Q   &kp W   &kp E     &kp R      &kp T                                                                                  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&lt 2 ESCAPE  &kp A   &kp S   &kp D     &kp F      &kp G                                                                                  &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&lt 3 ESCAPE  &kp A   &kp S   &kp D     &kp F      &kp G                                                                                  &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &kp GRAVE     &kp Z   &kp X   &kp C     &kp V      &kp B   &kp LCTRL                 &kp LEFT_ALT  &trans  &trans  &kp DEL  &kp LEFT_WIN  &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
-&magic 5 0    &mo 4   &mo 4   &kp LEFT  &kp RIGHT          &mt LEFT_SHIFT BACKSPACE  &lt 3 DELETE  &trans  &trans  &kp RET  &kp SPACE             &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp PG_DN
+&magic 6 0    &mo 5   &mo 5   &kp LEFT  &kp RIGHT          &mt LEFT_SHIFT BACKSPACE  &lt 4 DELETE  &trans  &trans  &kp RET  &kp SPACE             &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -116,6 +116,17 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans        &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gaming {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &kp SPACE  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -159,7 +170,7 @@
 &none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                            &none  &none  &none  &none  &none  &none
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                            &none  &none  &none  &none  &none  &bootloader
 &sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &none  &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset
-&none        &none            &none            &tog 0           &tog 1                            &bt_0  &bt_1  &usb   &none  &none  &none         &none  &none  &none  &none  &to 0
+&none        &none            &to 0            &tog 1           &tog 2                            &bt_0  &bt_1  &usb   &none  &none  &none         &none  &none  &none  &none  &to 0
             >;
         };
     };
